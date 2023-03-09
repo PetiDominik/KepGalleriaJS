@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formazas {
+    border: 2px solid grey;
+    background-color: brown;
+}
+
+
+
+#kep-galleria {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#kep-galleria div{
+    flex: 1 1 25%;
+}
+
+img {
+    width: 100%;
+}
